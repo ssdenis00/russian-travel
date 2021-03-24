@@ -1,0 +1,12 @@
+.cover {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 92px 0 0;
+  width: 100%;
+  min-height: 740px;
+  background: center / cover url('../../images/cover-background.jpg') no-repeat;
+}

@@ -1,0 +1,9 @@
+.galary {
+  display: grid;
+  margin-top: 92px;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+}

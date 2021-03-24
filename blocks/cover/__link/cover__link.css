@@ -1,0 +1,16 @@
+.cover__link {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color 0.3s linear;
+}
+
+.cover__link:hover {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, .8);
+}
