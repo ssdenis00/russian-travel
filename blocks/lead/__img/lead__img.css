@@ -1,4 +1,9 @@
 .lead__img {
-  width: 100%;
-  max-height: 615px;
+  width: 95%;
+  padding: 9.5% 0 26.5% 0;
+  display: flex;
+  margin: 0 auto;
+  overflow: auto;
+  object-fit: cover;
+  object-position: center;
 }

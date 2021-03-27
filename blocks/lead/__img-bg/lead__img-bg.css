@@ -1,0 +1,4 @@
+.lead__img-bg {
+  display: block;
+  background: center / cover url('../../../images/lead-img-bg.jpg') no-repeat;
+}
