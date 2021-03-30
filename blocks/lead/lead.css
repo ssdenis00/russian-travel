@@ -1,3 +1,23 @@
 .lead {
-  
+  font-family: 'Inter', sans-serif;
+  padding: 0 48px;
+  margin: 57px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .lead {
+    margin-top: 48px;
+  }
 }

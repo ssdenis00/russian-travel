@@ -1,9 +1,24 @@
 .galary {
   display: grid;
-  margin-top: 92px;
   justify-content: space-between;
   gap: 16px;
-  max-width: 100%;
+  margin: 92px auto 0;
+  padding: 0 48px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .galary {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 350px) {
+  .galary {
+    margin-top: 64px;
+    padding: 0 16px;
+    gap: 12px;
+  }
 }

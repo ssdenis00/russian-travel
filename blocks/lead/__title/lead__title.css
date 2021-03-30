@@ -1,10 +1,10 @@
 .lead__title {
+  margin: 0;
   font-size: 96px;
   line-height: 104%;
   font-weight: 900;
   text-align: center;
   white-space: pre-line;
-  margin: 56px auto 0;
 }
 
 @media screen and (max-width: 767px) {

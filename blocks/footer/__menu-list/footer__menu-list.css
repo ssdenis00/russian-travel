@@ -8,6 +8,6 @@
 @media (max-width: 670px) {
   .footer__menu-list {
     flex-direction: column;
-    margin: 0 0 16px;
+    margin: 4px 0 16px;
   }
 }

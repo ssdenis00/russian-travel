@@ -7,9 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 92px 0 0;
-  width: 100%;
-  min-height: 740px;
+  padding: 245px 312px;
   background: center / cover url('../../../images/cover-background.jpg') no-repeat;
 }
 
@@ -25,4 +23,22 @@
 
 .cover__link:hover::after {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media (max-width: 1051px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+
+@media (max-width: 894px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
+}
+
+@media (max-width: 350px) {
+  .cover__link {
+    padding: 33px 16px;
+  }
 }

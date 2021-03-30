@@ -1,5 +1,23 @@
 .place {
-  max-width: 83%;
   margin: 0 auto;
-  padding: 12px 0 0;
+  font-family: 'Inter', sans-serif;
+  padding: 12px 148px 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    padding: 12px 48px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    padding: 12px 24px 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .place {
+    padding: 12px 0 0;
+  }
 }

@@ -5,8 +5,17 @@
   line-height: 106%
 }
 
-@media (max-width: 932px) {
+@media (max-width: 970px) {
   .place__title {
     font-size: 42px;
+    line-height: 110%;
+  }
+}
+
+@media (max-width: 350px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 109%;
+    margin: 15px 0 0 16px;
   }
 }
