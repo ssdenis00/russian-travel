@@ -1,9 +1,9 @@
-.place__column_img-size {
+.place__column_img_size {
   max-height: 460px;
 }
 
 @media (max-width: 1024px) {
-  .place__column_img-size {
+  .place__column_img_size {
     max-height: 440px;
   }
 }

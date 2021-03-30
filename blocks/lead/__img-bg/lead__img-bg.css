@@ -1,23 +1,5 @@
 .lead__img-bg {
-  background: center / 100% 100% url('../../../images/lead-img-bg.png') no-repeat;
   max-width: 100%;
-  min-height: 615px;
-}
-
-@media (max-width: 1024px){
-  .lead__img-bg {
-    min-height: 580px;
-  }
-}
-
-@media (max-width: 768px){
-  .lead__img-bg {
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 450px){
-  .lead__img-bg {
-    min-height: 200px;
-  }
+  object-position: center;
+  object-fit: cover;
 }

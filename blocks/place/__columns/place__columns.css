@@ -4,7 +4,6 @@
   grid-column-gap: 40px;
   padding: 0;
   margin: 80px auto 0;
-  list-style: none;
   grid-template-columns: minmax(320px, 460px) 49%;
   grid-template-rows: auto min-content;
 }
@@ -27,7 +26,6 @@
   .place__columns {
     margin-top: 38px;
     grid-template-columns: 100%;
-    grid-template-rows: auto min-content;
     line-height: 145%;
     grid-row-gap: 28px;
   }
