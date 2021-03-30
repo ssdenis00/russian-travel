@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 524px) {
+@media (max-width: 689px) {
   .place__columns {
     margin-top: 38px;
     grid-template-columns: 100%;
